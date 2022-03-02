@@ -43,7 +43,7 @@ function hold() {
     score[activePlayer] += currentScore;
     document.querySelector(`#score--${activePlayer}`).textContent =
       score[activePlayer];
-    if (score[activePlayer] >= 20) {
+    if (score[activePlayer] >= 100) {
       winner = false;
       document
         .querySelector(`.player--${activePlayer}`)
